@@ -1,2 +1,2 @@
-# RUL prediction model on CMAPSS dataset
+# RUL prediction using LSTM model on CMAPSS dataset
  
