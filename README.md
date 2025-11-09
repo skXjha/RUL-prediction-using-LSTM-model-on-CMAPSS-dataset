@@ -1,11 +1,9 @@
 # RUL prediction using BiLSTM+Attention model
-This project implements a **Remaining Useful Life (RUL) prediction** model for turbofan engines using the **NASA C-MAPSS FD003** dataset.  
-A hybrid **Bidirectional LSTM with Attention mechanism** is used to capture both temporal dependencies and feature importance in sensor data.
+This project implements a **Remaining Useful Life (RUL) prediction** model for turbofan engines using the **NASA C-MAPSS FD003** dataset. A hybrid **Bidirectional LSTM with Attention mechanism** is used to capture both temporal dependencies and feature importance in sensor data.
+
 <img width="434" height="231" alt="image" src="https://github.com/user-attachments/assets/5d48a3c6-ec12-4594-8230-8d41fb1bf73e" />
-<img width="459" height="218" alt="image" src="https://github.com/user-attachments/assets/1e616bf3-f6f3-4d78-a60e-29a4e7163977" />
-Predicting Remaining Useful Life (RUL) is a key task in predictive maintenance.  
-This notebook builds a deep learning model that takes multivariate time-series sensor data from turbofan engines and estimates the number of cycles remaining before failure.
-## 📂 Dataset
+
+## Dataset
 
 **Source:** NASA C-MAPSS dataset  
 **Subset used:** `FD003`  
@@ -26,7 +24,7 @@ This notebook builds a deep learning model that takes multivariate time-series s
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 ### **BiLSTM + Attention**
 
